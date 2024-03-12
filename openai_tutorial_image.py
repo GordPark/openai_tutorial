@@ -13,7 +13,8 @@ client = OpenAI(api_key=openai_api_key)
 
 response = client.images.generate(
     model=MODEL,
-    prompt="멋쟁이 사자를 그려줘",
+    prompt=
+    "유명한 인상파화가가 그린 지구인데 우주에서 본 시점으로 지구안에는 물이 가득차 있고 모양은 시계처럼 그리고 산들은 입체감이 있게 그려줘",
     size="1024x1024",
     quality="standard",
     n=1,
