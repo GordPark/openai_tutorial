@@ -21,7 +21,7 @@ response = client.chat.completions.create(
         {
           "type": "image_url",
           "image_url": {
-            "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/dd/Gfp-wisconsin-madison-the-nature-boardwalk.jpg/2560px-Gfp-wisconsin-madison-the-nature-boardwalk.jpg",
+            "url": "https://jmagazine.joins.com/_data/photo/2017/12/thumb_237268740_xKqXAZdC_1.jpg",
           },
         },
       ],
